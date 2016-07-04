@@ -2,6 +2,18 @@
 
 A script to download all of the audio content from Theme Time Radio Hour (for posterity purposes)
 
+## DONE
+- write basic download script to download an mp3 (sync)
+
+## TO DO
+- Update download script to download into specific file
+- write web scraper to go through all pages
+  [from here](http://www.themetimeradio.com/cat/themetime/)
+  [to here](http://www.themetimeradio.com/cat/themetime/page/26)
+  grabbing the url for $('audio source').attr('src')
+  and write them to a file
+- write downloader script to download all mp3s in source list, ideally in parallel
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
